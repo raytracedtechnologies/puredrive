@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var domArray = ['<header></header>'];
     $('body').append(domArray);
-    $('body').append(navigator.platform);
+    $('body').append("Platform: " + navigator.platform);
     if (navigator.platform = "MacIntel") {
         $('header').append('<h1>Download Pure Drive for Mac</h1>');
     }
