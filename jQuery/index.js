@@ -5,7 +5,7 @@ $(document).ready(function () {
     if (navigator.platform = "MacIntel") {
         $('header').append('<h1>Download Pure Drive for Mac</h1>');
     }
-    else if ((navigator.platform = "Android") || (navigator.platform = "Linux armv7l")) {
+    else if ((navigator.platform = "Android") || (navigator.platform = "Linux armv7l") || (navigator.platform = "Linux aarch64")) {
         $('header').append('<h1>Download Pure Drive for Android</h1>');
     }
 });
