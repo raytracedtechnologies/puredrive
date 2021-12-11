@@ -1,7 +1,7 @@
 body {
     font-family: "Trebuchet MS";
     padding: 5px;
-    background-image: url("../GenericImages/backgroundimage.jpg");
+    background-image: url("GenericImages/backgroundimage.jpg");
 }
 
 footer {
